@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const Main = () => {
   return (
-    <div className="flex-grow w-full flex flex-col justify-around items-center">
+    <div className="flex-grow w-full ">
       <Profil />
       <Skills />
     </div>

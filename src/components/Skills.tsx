@@ -14,13 +14,13 @@ const Skills = () => {
   ];
 
   const designSkills = [
+    { name: "InDesign", icon: InDesign },
     { name: "Photoshop", icon: Photoshop },
     { name: "Illustrator", icon: Illustrator },
-    { name: "Figma", icon: InDesign },
   ];
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center bg-slate-950  rounded p-5 ">
       <h2>Skills</h2>
       <div className="flex flex-row gap-5">
         <SkillsCard title="Web" skills={webSkills} />
