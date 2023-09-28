@@ -1,6 +1,6 @@
 const Profil = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-around alig-items-center bg-slate-950 w-full">
       <p>Bienvenue !</p>
       <h1>Moi c'est Phil</h1>
       <p>Développeur front-end junior dans l'écosystème React.TS</p>

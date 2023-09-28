@@ -1,10 +1,10 @@
 import SkillsCard from "./SkillsCard";
-import HTML from "./assets/logo/html.svg";
-import CSS from "./assets/logo/css.svg";
-import JavaScript from "./assets/logo/javascript.svg";
-import InDesign from "./assets/logo/indesign.svg";
-import Illustrator from "./assets/logo/illustrator.svg";
-import Photoshop from "./assets/logo/photoshop.svg";
+import HTML from "../assets/logo/html.svg";
+import CSS from "../assets/logo/css.svg";
+import JavaScript from "../assets/logo/javascript.svg";
+import InDesign from "../assets/logo/indesign.svg";
+import Illustrator from "../assets/logo/illustrator.svg";
+import Photoshop from "../assets/logo/photoshop.svg";
 
 const Skills = () => {
   const webSkills = [
@@ -20,11 +20,13 @@ const Skills = () => {
   ];
 
   return (
-    <>
+    <div className="flex flex-col items-center">
       <h2>Skills</h2>
-      <SkillsCard title="Web" skills={webSkills} />
-      <SkillsCard title="Design" skills={designSkills} />
-    </>
+      <div className="flex flex-row gap-5">
+        <SkillsCard title="Web" skills={webSkills} />
+        <SkillsCard title="Design" skills={designSkills} />
+      </div>
+    </div>
   );
 };
 
