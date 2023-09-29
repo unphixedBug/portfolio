@@ -8,13 +8,23 @@ import Photoshop from "../assets/logo/photoshop.svg";
 
 const Skills = () => {
   const webSkills = [
-    { name: "HTML", icon: HTML, mainColor: "#e34c26", accentColor: "#f06529" },
-    { name: "CSS", icon: CSS, mainColor: "#264de4", accentColor: "#2965f1" },
+    {
+      name: "HTML",
+      icon: HTML,
+      mainColor: "rgb(227, 76, 38)",
+      accentColor: "rgb(240, 101, 41)",
+    },
+    {
+      name: "CSS",
+      icon: CSS,
+      mainColor: "rgb(38, 77, 228)",
+      accentColor: "rgb(41, 101, 241)",
+    },
     {
       name: "JavaScript",
       icon: JavaScript,
-      mainColor: "#F7DF1E",
-      accentColor: "#000000",
+      mainColor: "rgb(247, 223, 30)",
+      accentColor: "rgb(0, 0, 0)",
     },
   ];
 
@@ -22,20 +32,20 @@ const Skills = () => {
     {
       name: "InDesign",
       icon: InDesign,
-      mainColor: "#49021F",
-      accentColor: "#FF3366",
+      mainColor: "rgb(255, 51, 102)",
+      accentColor: "rgb(73, 2, 31)",
     },
     {
       name: "Photoshop",
       icon: Photoshop,
-      mainColor: "#001E36",
-      accentColor: "#31A8FF",
+      mainColor: "rgb(49, 168, 255)",
+      accentColor: "rgb(0, 30, 54)",
     },
     {
       name: "Illustrator",
       icon: Illustrator,
-      mainColor: "#330000",
-      accentColor: "#FE9900",
+      mainColor: "rgb(254, 153, 0)",
+      accentColor: "rgb(51, 0, 0)",
     },
   ];
 
