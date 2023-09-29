@@ -4,13 +4,13 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "custom-gradient":
-          "linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);",
+        "custom-gradient": "linear-gradient(to right, #FFF, #FFF, #FFF);",
       },
       colors: {
         "rose-custom": "#aa4b6b",
         "gris-custom": "#6b6b83",
-        "bleu-custom": "#3b8d99",
+        "bleu-custom": "#24272f",
+        "bleu-cv": "#139dc9",
       },
     },
   },
