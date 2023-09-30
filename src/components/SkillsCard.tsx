@@ -12,8 +12,10 @@ interface SkillCardProps {
 
 const SkillsCard: React.FC<SkillCardProps> = ({ title, skills }) => {
   return (
-    <div className=" flex flex-col items-center border pb-12 bg-custom-bg rounded-md py-5">
-      <h2 className="text-3xl my-5">{title}</h2>
+    <div className=" flex flex-col items-center pb-10 pt-5 px-5 md:px-7 bg-custom-bg rounded-md">
+      <h2 className="text-xl md:text-3xl lg:text-4xl m-2 sm:m-3 md:m-4">
+        {title}
+      </h2>
       <ul className="flex flex-wrap justify-center gap-5">
         {skills.map((skill, index) => {
           const rgbaColor = skill.mainColor
@@ -22,16 +24,16 @@ const SkillsCard: React.FC<SkillCardProps> = ({ title, skills }) => {
           return (
             <li key={index} className="flex flex-col items-center">
               <span
-                className="m-3 border border-5 rounded-full w-20 h-20 flex items-center justify-around bg-opacity-50"
+                className="m-3 border border-5 rounded-full w-10 h-10 flex items-center justify-around bg-opacity-50"
                 style={{
                   borderColor: skill.mainColor,
                   backgroundColor: rgbaColor,
                 }}
               >
-                <img src={skill.icon} alt="" className="w-10 h-10" />
+                <img src={skill.icon} alt="" className="w-5 h-5" />
               </span>
               <p
-                className="tracking-widest font-light"
+                className="tracking-widest font-light text-base md:text-xl lg:text-2xl"
                 style={{ color: skill.mainColor }}
               >
                 {skill.name}
