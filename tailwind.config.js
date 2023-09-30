@@ -11,6 +11,7 @@ export default {
         "gris-custom": "#6b6b83",
         "bleu-custom": "#24272f",
         "bleu-cv": "#139dc9",
+        "custom-bg": "#24272f",
       },
     },
   },

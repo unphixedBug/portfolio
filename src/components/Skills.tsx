@@ -79,15 +79,15 @@ const Skills = () => {
     {
       name: "Figma",
       icon: Figma,
-      mainColor: "rgb(30, 30, 30)",
-      accentColor: "rgb(51, 0, 0)",
+      mainColor: "rgb(255, 255, 255)",
+      accentColor: "rgb(30, 30, 30)",
     },
   ];
 
   return (
-    <div className="flex flex-col items-center  rounded p-5 text-rose-custom">
-      <h2 className="text-3xl p-5">Skills</h2>
-      <div className="flex flex-col lg:flex-row gap-5">
+    <div className="flex flex-col items-center  p-5 ">
+      <h2 className="text-5xl p-5 text-bleu-cv">Skills</h2>
+      <div className="flex flex-col gap-5 ">
         <SkillsCard title="Web" skills={webSkills} />
         <SkillsCard title="Design" skills={designSkills} />
       </div>
