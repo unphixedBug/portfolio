@@ -12,7 +12,7 @@ const Projets = () => {
           description="Portfolio réalisé sans préparation préalable"
           image="src\assets\projetsimg\portfolio.PNG"
           githubLink="https://github.com/philouLeF/portfolio"
-          liveLink="https://monProjetEnProd.com"
+          liveLink="https://philoulef.github.io/portfolio/"
           technologies={["React", "TypeScript", "Tailwind"]}
         />
         <ProjectCard
