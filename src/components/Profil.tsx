@@ -9,7 +9,7 @@ const Profil = () => {
         Développeur React junior
       </p>
       <a
-        href="src\assets\cvWebDev2.pdf"
+        href="public\cvWebDev2.pdf"
         target="_blank"
         className="text-xs md:text-sm lg:text-base my-7 lg:my-14 inline-flex text-custom-bg p-1 md:p-2 rounded-lg bg-bleu-cv text-white "
       >
