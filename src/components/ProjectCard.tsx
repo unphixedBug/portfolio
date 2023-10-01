@@ -41,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           href={liveLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="border rounded px-3 py-1 flex items-center gap-1 hover:text-bleu-cv hover:border-bleu-cv"
+          className="border rounded px-3 py-1 flex items-center gap-1 hover:text-bleu-cv hover:border-bleu-cv transition duration-300"
         >
           Le projet
           <FontAwesomeIcon icon={faLink} />

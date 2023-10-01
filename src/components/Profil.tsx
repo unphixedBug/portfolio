@@ -11,7 +11,7 @@ const Profil = () => {
       <a
         href="public\cvWebDev2.pdf"
         target="_blank"
-        className="text-xs md:text-sm lg:text-base my-7 lg:my-14 inline-flex text-custom-bg p-1 md:p-2 rounded-lg bg-bleu-cv text-white "
+        className="text-xs md:text-sm lg:text-base my-7 lg:my-14 inline-flex p-1 md:p-2 rounded-lg border border-bleu-cv text-bleu-cv hover:text-custom-bg  hover:bg-bleu-cv transition duration-300"
       >
         Pour voir mon CV, ça se passe ici
       </a>

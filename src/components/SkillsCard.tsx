@@ -24,13 +24,17 @@ const SkillsCard: React.FC<SkillCardProps> = ({ title, skills }) => {
           return (
             <li key={index} className="flex flex-col items-center">
               <span
-                className="m-3 border border-5 rounded-full w-10 h-10 flex items-center justify-around bg-opacity-50"
+                className="m-3 border border-5 rounded-full w-10 h-10 md:w-14 md:h-14 lg:w-20 lg:h-20 flex items-center justify-around bg-opacity-50"
                 style={{
                   borderColor: skill.mainColor,
                   backgroundColor: rgbaColor,
                 }}
               >
-                <img src={skill.icon} alt="" className="w-5 h-5" />
+                <img
+                  src={skill.icon}
+                  alt=""
+                  className="w-5 h-5 md:w-7 md:h-7 lg:w-10 lg:h-10"
+                />
               </span>
               <p
                 className="tracking-widest font-light text-base md:text-xl lg:text-2xl"

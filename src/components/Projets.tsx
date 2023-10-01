@@ -9,7 +9,7 @@ const Projets = () => {
       <div className="flex flex-wrap gap-3 justify-around">
         <ProjectCard
           name="Portfolio"
-          description="Portfolio réalisé sans préparation préalable"
+          description="Portfolio réalisé dans un contexte de développement agile"
           image="public\projetsimg\portfolio.PNG"
           githubLink="https://github.com/philouLeF/portfolio"
           liveLink="https://philoulef.github.io/portfolio/"
