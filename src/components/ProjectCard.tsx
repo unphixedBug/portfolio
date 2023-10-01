@@ -26,12 +26,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       </h2>
       <img src={image} alt={`${name} thumbnail`} className="rounded" />
       <p>{description}</p>
-      <div className="flex gap-3">
+      <div className="flex gap-3 ">
         <a
           href={githubLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="border rounded px-3 py-1 flex items-center gap-1"
+          className="border rounded px-3 py-1 flex items-center gap-1 hover:text-bleu-cv hover:border-bleu-cv"
         >
           Github
           <FontAwesomeIcon icon={faLink} />
@@ -41,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           href={liveLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="border rounded px-3 py-1 flex items-center gap-1"
+          className="border rounded px-3 py-1 flex items-center gap-1 hover:text-bleu-cv hover:border-bleu-cv"
         >
           Le projet
           <FontAwesomeIcon icon={faLink} />
