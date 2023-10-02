@@ -10,7 +10,7 @@ const Projets = () => {
         <ProjectCard
           name="Portfolio"
           description="Portfolio réalisé dans un contexte de développement agile"
-          image="\portfolio\src\assets\projetsimg\portfolio.PNG"
+          image="public\projetsimg\portfolio.PNG"
           githubLink="https://github.com/philouLeF/portfolio"
           liveLink="https://philoulef.github.io/portfolio/"
           technologies={["React", "TypeScript", "Tailwind"]}

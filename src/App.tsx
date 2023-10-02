@@ -12,7 +12,7 @@ base text: text-xs md:text-sm lg:text-base
 
 function App() {
   return (
-    <div className="flex flex-col items-center min-h-screen  text-cyan-50 bg-custom-bg">
+    <div className="flex flex-col items-center min-h-screen  text-cyan-50 bg-custom-bg ">
       <Header />
       <Main />
       <Contact />
