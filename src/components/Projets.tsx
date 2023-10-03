@@ -6,10 +6,34 @@ const Projets = () => {
       <h2 className="text-2xl md:text-4xl lg:text-5xl p-5 text-bleu-cv">
         Projets
       </h2>
-      <div className="flex flex-wrap gap-3 justify-around">
+      <div className="flex flex-wrap justify-around gap-3 md:gap-6 lg:gap-8">
         <ProjectCard
           name="Portfolio"
-          description="Portfolio réalisé dans un contexte de développement agile"
+          description="Portfolio réalisé sans planification préalable"
+          image="public/projetsimg/portfolio.PNG"
+          githubLink="https://github.com/philouLeF/portfolio"
+          liveLink="https://philoulef.github.io/portfolio/"
+          technologies={["React", "TypeScript", "Tailwind"]}
+        />
+        <ProjectCard
+          name="Portfolio"
+          description="Portfolio réalisé sans planification préalable"
+          image="public/projetsimg/portfolio.PNG"
+          githubLink="https://github.com/philouLeF/portfolio"
+          liveLink="https://philoulef.github.io/portfolio/"
+          technologies={["React", "TypeScript", "Tailwind"]}
+        />
+        <ProjectCard
+          name="Portfolio"
+          description="Portfolio réalisé sans planification préalable"
+          image="public/projetsimg/portfolio.PNG"
+          githubLink="https://github.com/philouLeF/portfolio"
+          liveLink="https://philoulef.github.io/portfolio/"
+          technologies={["React", "TypeScript", "Tailwind"]}
+        />
+        <ProjectCard
+          name="Portfolio"
+          description="Portfolio réalisé sans planification préalable"
           image="public/projetsimg/portfolio.PNG"
           githubLink="https://github.com/philouLeF/portfolio"
           liveLink="https://philoulef.github.io/portfolio/"
