@@ -85,7 +85,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center p-5 ">
+    <div className="flex flex-col items-center p-5" id="skills">
       <h2 className="text-2xl md:text-4xl lg:text-5xl p-5 text-bleu-cv">
         Skills
       </h2>

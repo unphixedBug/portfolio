@@ -1,6 +1,9 @@
 const Profil = () => {
   return (
-    <div className="flex flex-col justify-around items-center lg:px-56 lg:pt-32 pt-32 p-5 text-bleu-cv">
+    <div
+      className="flex flex-col justify-around items-center lg:px-56 lg:pt-32 pt-32 p-5 text-bleu-cv"
+      id="profil"
+    >
       <p className="text-xl md:text-3xl lg:text-4xl">Hello ! Moi c'est</p>
       <h1 className="text-3xl md:text-5xl lg:text-6xl my-1 lg:my-3 font-bold">
         Philippe Delcroix
