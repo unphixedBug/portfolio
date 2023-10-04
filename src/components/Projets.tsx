@@ -10,7 +10,7 @@ const Projets = () => {
         <ProjectCard
           name="Portfolio"
           description="Portfolio réalisé sans planification préalable"
-          image="public/projetsimg/portfolio.PNG"
+          image="./projetsimg/portfolio.PNG"
           githubLink="https://github.com/philouLeF/portfolio"
           liveLink="https://philoulef.github.io/portfolio/"
           technologies={["React", "TypeScript", "Tailwind"]}
@@ -18,7 +18,7 @@ const Projets = () => {
         <ProjectCard
           name="Portfolio"
           description="Portfolio réalisé sans planification préalable"
-          image="public/projetsimg/portfolio.PNG"
+          image="/projetsimg/portfolio.PNG"
           githubLink="https://github.com/philouLeF/portfolio"
           liveLink="https://philoulef.github.io/portfolio/"
           technologies={["React", "TypeScript", "Tailwind"]}
@@ -26,7 +26,7 @@ const Projets = () => {
         <ProjectCard
           name="Portfolio"
           description="Portfolio réalisé sans planification préalable"
-          image="public/projetsimg/portfolio.PNG"
+          image="/projetsimg/portfolio.PNG"
           githubLink="https://github.com/philouLeF/portfolio"
           liveLink="https://philoulef.github.io/portfolio/"
           technologies={["React", "TypeScript", "Tailwind"]}
@@ -34,7 +34,7 @@ const Projets = () => {
         <ProjectCard
           name="Portfolio"
           description="Portfolio réalisé sans planification préalable"
-          image="public/projetsimg/portfolio.PNG"
+          image="/projetsimg/portfolio.PNG"
           githubLink="https://github.com/philouLeF/portfolio"
           liveLink="https://philoulef.github.io/portfolio/"
           technologies={["React", "TypeScript", "Tailwind"]}

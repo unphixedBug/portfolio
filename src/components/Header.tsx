@@ -45,30 +45,36 @@ const Header = () => {
   return (
     <header className="fixed h-16 w-full p-5 flex flex-row justify-center bg-[rgb(36, 39, 47)] backdrop-blur text-sm md:text-base lg:text-lg">
       <ul className="flex flex-row justify-around md:justify-center items-center gap-10 w-full text-white ">
-        <li
-          className={`hover:text-bleu-cv transition duration-300 ${
-            currentSection === "profil" ? "text-bleu-cv" : ""
-          }`}
-        >
-          <a href="#profil" onClick={(e) => scrollToSection(e, "profil")}>
+        <li>
+          <a
+            href="#profil"
+            onClick={(e) => scrollToSection(e, "profil")}
+            className={`hover:text-bleu-cv transition duration-300 ${
+              currentSection === "profil" ? "text-bleu-cv" : ""
+            }`}
+          >
             PROFIL
           </a>
         </li>
-        <li
-          className={`hover:text-bleu-cv transition duration-300 ${
-            currentSection === "skills" ? "text-bleu-cv" : ""
-          }`}
-        >
-          <a href="#skills" onClick={(e) => scrollToSection(e, "skills")}>
+        <li>
+          <a
+            href="#skills"
+            onClick={(e) => scrollToSection(e, "skills")}
+            className={`hover:text-bleu-cv transition duration-300 ${
+              currentSection === "skills" ? "text-bleu-cv" : ""
+            }`}
+          >
             SKILLS
           </a>
         </li>
-        <li
-          className={`hover:text-bleu-cv transition duration-300 ${
-            currentSection === "projets" ? "text-bleu-cv" : ""
-          }`}
-        >
-          <a href="#projets" onClick={(e) => scrollToSection(e, "projets")}>
+        <li>
+          <a
+            href="#projets"
+            onClick={(e) => scrollToSection(e, "projets")}
+            className={`hover:text-bleu-cv transition duration-300 ${
+              currentSection === "projets" ? "text-bleu-cv" : ""
+            }`}
+          >
             PROJETS
           </a>
         </li>
