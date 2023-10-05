@@ -6,8 +6,8 @@ const Contact = () => {
   const iconSize = "2x";
 
   return (
-    <footer className="fixed bottom-0 h-16 w-full p-5 flex flex-row justify-center text-slate-950 bg-[rgb(36, 39, 47),0.5)] backdrop-blur">
-      <ul className="flex flex-row justify-around md:justify-center w-full items-center gap-10 text-white ">
+    <footer className="fixed bottom-0 h-16 w-full p-5 flex flex-row justify-center bg-[rgb(36, 39, 47),0.5)] backdrop-blur">
+      <ul className="flex flex-row justify-around md:justify-center w-full items-center gap-10 ">
         <li>
           <a href="mailto:delcroixphilippe73@gmail.com">
             <FontAwesomeIcon

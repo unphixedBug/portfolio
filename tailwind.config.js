@@ -9,9 +9,11 @@ export default {
       colors: {
         "rose-custom": "#aa4b6b",
         "gris-custom": "#6b6b83",
-        "bleu-custom": "#24272f",
+        darkBG: "#24272F",
         "bleu-cv": "#139dc9",
-        "custom-bg": "#24272f",
+        "accent-custom": "#9C495E",
+        textCustom: "#D2F3FE",
+        secondColor: "#2B2E36",
       },
     },
   },

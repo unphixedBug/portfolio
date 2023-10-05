@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   technologies,
 }) => {
   return (
-    <div className="flex flex-col items-start gap-2 lg:gap-3  border rounded-md  py-6 px-5 md:px-7 md:w-[calc(50%-1rem)] lg:w-[calc(33.3333%-2rem)]  bg-custom-bg">
+    <div className="flex flex-col items-start gap-2 lg:gap-3  rounded-md bg-secondColor  py-6 px-5 md:px-7 md:w-[calc(50%-1rem)] lg:w-[calc(33.3333%-2rem)]">
       <h2 className="text-xl md:text-3xl lg:text-4xl m-2 sm:m-3 md:m-4">
         {name}
       </h2>
@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         {technologies.map((tech, index) => (
           <li
             key={index}
-            className="bg-white rounded-full text-bleu-cv px-2 py-1 text-custom-bg base text-sm md:text-base lg:text-lg"
+            className="bg-textCustom rounded-full  px-2 py-1 text-secondColor  base text-sm md:text-base lg:text-lg"
           >
             {tech}
           </li>

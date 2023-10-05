@@ -44,7 +44,7 @@ const Header = () => {
 
   return (
     <header className="fixed h-16 w-full p-5 flex flex-row justify-center bg-[rgb(36, 39, 47)] backdrop-blur text-sm md:text-base lg:text-lg">
-      <ul className="flex flex-row justify-around md:justify-center items-center gap-10 w-full text-white ">
+      <ul className="flex flex-row justify-around md:justify-center items-center gap-10 w-full ">
         <li>
           <a
             href="#profil"

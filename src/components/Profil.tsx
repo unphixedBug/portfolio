@@ -1,7 +1,7 @@
 const Profil = () => {
   return (
     <div
-      className="flex flex-col justify-around items-center lg:px-56 lg:pt-32 pt-32 p-5 text-bleu-cv"
+      className="flex flex-col justify-around items-center lg:px-56 lg:pt-32 pt-32 p-5 "
       id="profil"
     >
       <p className="text-xl md:text-3xl lg:text-4xl">Hello ! Moi c'est</p>
@@ -14,7 +14,7 @@ const Profil = () => {
       <a
         href="./cvWebDev.pdf"
         target="_blank"
-        className="text-xs md:text-sm lg:text-base my-7 lg:my-14 inline-block w-auto p-1 md:p-2 rounded-lg border border-bleu-cv text-bleu-cv hover:text-custom-bg  hover:bg-bleu-cv transition duration-300"
+        className="text-xs md:text-sm lg:text-base my-7 lg:my-14 inline-block w-auto p-1 md:p-2 rounded-lg hover:border hover:border-textCustom text-darkBG hover:text-textCustom hover:bg-secondColor  bg-bleu-cv transition duration-300"
       >
         Mon CV juste ici !
       </a>
