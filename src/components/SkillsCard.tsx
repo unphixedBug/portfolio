@@ -12,8 +12,8 @@ interface SkillCardProps {
 
 const SkillsCard: React.FC<SkillCardProps> = ({ title, skills }) => {
   return (
-    <div className=" flex flex-col items-center pb-10 pt-5 px-5 md:px-7 bg-secondColor rounded-md">
-      <h2 className="text-xl md:text-3xl lg:text-4xl m-2 sm:m-3 md:m-4">
+    <div className=" flex flex-col items-center pb-10 pt-5 px-5 md:px-7 bg-secondColor rounded-md md:w-3/4 ">
+      <h2 className="text-xl md:text-3xl lg:text-4xl m-2 sm:m-3 md:m-4 ">
         {title}
       </h2>
       <ul className="flex flex-wrap justify-center gap-5">
