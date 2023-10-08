@@ -24,10 +24,11 @@ const SkillsCard: React.FC<SkillCardProps> = ({ title, skills }) => {
           return (
             <li key={index} className="flex flex-col items-center">
               <span
-                className="m-3 border border-5 rounded-full w-10 h-10 md:w-14 md:h-14 lg:w-20 lg:h-20 flex items-center justify-around bg-opacity-50"
+                className="m-3 border border-5 rounded-full w-10 h-10 md:w-14 md:h-14 lg:w-20 lg:h-20 flex items-center justify-around bg-opacity-50 "
                 style={{
                   borderColor: skill.mainColor,
                   backgroundColor: rgbaColor,
+                  boxShadow: `0 0 30px -15px ${skill.mainColor}`,
                 }}
               >
                 <img
