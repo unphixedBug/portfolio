@@ -1,6 +1,7 @@
 import Profil from "./Profil";
 import Skills from "./Skills";
 import Projets from "./Projets";
+import ContactForm from "./ContactForm";
 
 const Main = () => {
   return (
@@ -8,6 +9,7 @@ const Main = () => {
       <Profil />
       <Skills />
       <Projets />
+      <ContactForm />
     </main>
   );
 };
