@@ -22,8 +22,8 @@ const Skills = () => {
     {
       name: "CSS",
       icon: CSS,
-      mainColor: "rgb(41, 101, 241)",
-      accentColor: "rgb(38, 77, 228)",
+      mainColor: "rgb(102, 51, 153)",
+      accentColor: "rgb(255, 255, 255)",
     },
     {
       name: "Tailwind",
