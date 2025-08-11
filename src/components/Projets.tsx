@@ -13,6 +13,14 @@ const Projets = () => {
           liveLink="https://philoulef.github.io/portfolio/"
           technologies={["React", "TypeScript", "Tailwind"]}
         />
+        <ProjectCard
+          name="Formulaire multi-étapes"
+          description="Projet frontendmentor lancé pour tester react-hook-form et zod ainsi que shadcn. Il s'est avéré être plus formateur que ce que je pensais, c'est pour cette raison que j'ai décidé de l'ajouter à mon portfolio."
+          image="./projetsimg/portfolio.PNG"
+          githubLink="https://github.com/philouLeF/portfolio"
+          liveLink="https://philoulef.github.io/portfolio/"
+          technologies={["React", "TypeScript", "Tailwind"]}
+        />
       </div>
     </div>
   );
