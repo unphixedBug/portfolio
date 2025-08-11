@@ -29,7 +29,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         alt={`${name} thumbnail`}
         className="rounded w-full h-48 md:h-56 lg:h-64 object-cover"
       />
-      <p className="text-sm md:text-base lg:text-lg">{description}</p>
+      <div className="text-sm md:text-base lg:text-lg">{description}</div>
       <div className="flex gap-3 my-2">
         <a
           href={githubLink}

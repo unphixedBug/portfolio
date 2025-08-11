@@ -1,3 +1,5 @@
+import MusicPlayer from "./MusicPlayer";
+
 const Profil = () => {
   return (
     <div
@@ -12,11 +14,15 @@ const Profil = () => {
         Développeur React junior
       </p>
       <p className="m-2 text-center sm:w-2/4 md:m-5">
-        Attiré par ce milieu grâce à ses promesses de crativité, d'évolutivité
+        Attiré par ce milieu grâce à ses promesses de créativité, d'évolutivité
         et d'impact potentiel, j'y ai découvert plus que ça.
         <br /> Mes missions actuelles sont principalement d'accroître mes
         connaissances en accessibilité et en éco-conception afin d'offrir la
         meilleure version du web à tout le monde !
+      </p>
+      <p className="m-2 text-center sm:w-2/4 md:m-5">
+        (Mais je suis avant tout un fan de musique, n'hésitez pas à écouter ma
+        suggestion du moment en bas à droite)
       </p>
       <a
         href="./cvWebDev.pdf"
@@ -25,6 +31,7 @@ const Profil = () => {
       >
         Mon CV juste ici !
       </a>
+      <MusicPlayer />
     </div>
   );
 };

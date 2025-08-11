@@ -19,7 +19,7 @@ const Projets = () => {
             <p>
               Projet <i>Frontend Mentor</i> lancé pour tester React Hook Form et
               Zod pour la création de formulaires incluant des validations ainsi
-              que Shadcn pour des composants accéssibles.
+              que Shadcn pour des composants accessibles.
               <br />
               Il s'est avéré être plus formateur que ce que je pensais, c'est
               pour cette raison que j'ai décidé de l'ajouter à mon portfolio.
