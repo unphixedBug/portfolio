@@ -4,7 +4,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 type ProjectCardProps = {
   name: string;
-  description: string;
+  description: string | JSX.Element;
   image: string;
   githubLink: string;
   liveLink: string;
@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   technologies,
 }) => {
   return (
-    <div className="flex flex-col items-start gap-2 lg:gap-3  rounded-md bg-secondColor  py-6 px-5 md:px-7 md:w-[calc(50%-1rem)] lg:w-[calc(33.3333%-2rem)]">
+    <div className="flex flex-col items-start gap-2 lg:gap-3  rounded-md bg-secondColor  py-6 px-5 md:px-7 md:w-[calc(50%-1rem)] max-w-[80%]">
       <h2 className="text-xl md:text-3xl lg:text-4xl m-2 sm:m-3 md:m-4">
         {name}
       </h2>

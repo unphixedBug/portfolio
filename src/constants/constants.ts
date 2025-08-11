@@ -71,7 +71,7 @@ export const diversSkills = [
     accentColor: "rgb(0, 0, 0)",
   },
   {
-    name: "react-hook-form",
+    name: "React Hook Form",
     icon: ReactHookForm,
     mainColor: "rgb(236,89,144)",
     accentColor: "rgb(255, 255, 255)",

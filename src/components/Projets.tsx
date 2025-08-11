@@ -15,11 +15,26 @@ const Projets = () => {
         />
         <ProjectCard
           name="Formulaire multi-étapes"
-          description="Projet frontendmentor lancé pour tester react-hook-form et zod ainsi que shadcn. Il s'est avéré être plus formateur que ce que je pensais, c'est pour cette raison que j'ai décidé de l'ajouter à mon portfolio."
-          image="./projetsimg/portfolio.PNG"
-          githubLink="https://github.com/philouLeF/portfolio"
-          liveLink="https://philoulef.github.io/portfolio/"
-          technologies={["React", "TypeScript", "Tailwind"]}
+          description={
+            <p>
+              Projet <i>Frontend Mentor</i> lancé pour tester React Hook Form et
+              Zod pour la création de formulaires incluant des validations ainsi
+              que Shadcn pour des composants accéssibles.
+              <br />
+              Il s'est avéré être plus formateur que ce que je pensais, c'est
+              pour cette raison que j'ai décidé de l'ajouter à mon portfolio.
+            </p>
+          }
+          image="./projetsimg/multiStepForm.PNG"
+          githubLink="https://github.com/unphixedBug/multi-step-form-main"
+          liveLink="https://unphixedbug.github.io/multi-step-form-main"
+          technologies={[
+            "React",
+            "TypeScript",
+            "Shadcn",
+            "React Hook Form",
+            "Zod",
+          ]}
         />
       </div>
     </div>
