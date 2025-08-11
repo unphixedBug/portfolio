@@ -20,11 +20,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   technologies,
 }) => {
   return (
-    <div className="flex flex-col items-start gap-2 lg:gap-3  rounded-md bg-secondColor  py-6 px-5 md:px-7 md:w-[calc(50%-1rem)] max-w-[80%]">
+    <div className="flex flex-col items-start gap-2 lg:gap-3  rounded-md bg-secondColor  py-6 px-5 md:px-7 w-full lg:w-[45%]">
       <h2 className="text-xl md:text-3xl lg:text-4xl m-2 sm:m-3 md:m-4">
         {name}
       </h2>
-      <img src={image} alt={`${name} thumbnail`} className="rounded" />
+      <img
+        src={image}
+        alt={`${name} thumbnail`}
+        className="rounded w-full h-48 md:h-56 lg:h-64 object-cover"
+      />
       <p className="text-sm md:text-base lg:text-lg">{description}</p>
       <div className="flex gap-3 my-2">
         <a
